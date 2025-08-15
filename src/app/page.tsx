@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      A new 
+      A new project
     </div>
   )
 }
