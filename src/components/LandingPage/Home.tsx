@@ -6,6 +6,7 @@ const Home = () => {
        <div className="flex flex-col items-center justify-center">
          <h3 className='text-4xl leading-0 font-bold text-white/80 ' >Components crafted for </h3>
         <h1 className='text-[5.4rem] tracking-tight font-bold text-white/80 ' >Modern Websites</h1>
+        <div className="get-started"></div>
        </div>
     </div>
   )
