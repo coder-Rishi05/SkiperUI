@@ -2,8 +2,15 @@ import React from 'react'
 
 const Nav1 = () => {
   return (
-    <div>
-        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-6"><ellipse cx="30.882" cy="30.803" rx="30.3097" ry="30.2769" fill="url(#paint0_radial_36_64)"></ellipse><defs><radialGradient id="paint0_radial_36_64" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.572266 0.526062) rotate(44.969) scale(85.6825 85.6824)"><stop offset="0.352001" stop-color="#090909"></stop><stop offset="0.591494" stop-color="#2770EA"></stop><stop offset="0.793825" stop-color="#FF7E97"></stop><stop offset="0.972489" stop-color="#FF9203"></stop></radialGradient></defs></svg>
+    <div className='flex items-center justify-center gap-8' >
+       <a href='#' className="nav relative flex items-center justify-center gap-2  ">
+         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-6"><ellipse cx="30.882" cy="30.803" rx="30.3097" ry="30.2769" fill="url(#paint0_radial_36_64)"></ellipse><defs><radialGradient id="paint0_radial_36_64" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.572266 0.526062) rotate(44.969) scale(85.6825 85.6824)"><stop offset="0.352001" stop-color="#090909"></stop><stop offset="0.591494" stop-color="#2770EA"></stop><stop offset="0.793825" stop-color="#FF7E97"></stop><stop offset="0.972489" stop-color="#FF9203"></stop></radialGradient></defs></svg>
+          <h4 className='font-extrabold text-2xl font-mono tracking-tighter' >skiper/ui</h4>
+       <span className='absolute border-red-500 text-xs border-1 rounded-full -right-[35%] top-0 text-red-500 px-2 py-0' >Beta</span>
+       </a>
+       <a href='#' className='text-neutral-400 cursor-pointer hover:text-neutral-300  ml-10 ' >Components</a>
+       <a href='#' className='text-neutral-400 cursor-pointer hover:text-neutral-300  ' >Pricing</a>
+       <a href='#' className='text-neutral-400 cursor-pointer hover:text-neutral-300  ' >Newsletter</a>
     </div>
   )
 }

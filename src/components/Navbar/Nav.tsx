@@ -5,7 +5,7 @@ import Nav2 from './Nav2'
 const Nav = () => {
   return (
     <div>
-        <nav className='flex items-center justify-between py-4' >
+        <nav className='flex items-center justify-between py-4 px-6' >
           <Nav1 />
           <Nav2 />
           {/* <div className="left">
