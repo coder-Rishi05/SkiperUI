@@ -1,6 +1,7 @@
 import React from "react";
 import WrapButton from "../ui/wrap-button";
 import { Globe } from "lucide-react";
+import CardCarousell from "../HomeCards/CardCarousell";
 // import { WrapButton } from "@/components/ui/wrap-button"
 // import {Wr}
 
@@ -39,6 +40,8 @@ const Home = () => {
         To make your dream Website live by just{" "}
         <span className="font-bold">Copy and paste</span>
       </p>
+
+      <CardCarousell />
     </div>
   );
 };
