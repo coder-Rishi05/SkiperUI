@@ -14,7 +14,7 @@ const images = [
 
 const CardCarousell = () => {
   return (
-    <div>
+    <div className='mt-20' >
         <CardCarousel
         images={images}
         autoplayDelay={2000}
