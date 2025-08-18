@@ -8,9 +8,9 @@ const Nav1 = () => {
           <h4 className='font-extrabold text-2xl font-mono tracking-tighter' >skiper/ui</h4>
        <span className='absolute border-red-500 text-xs border-1 rounded-full -right-[35%] top-0 text-red-500 px-2 py-0' >Beta</span>
        </a>
-       <a href='#' className='text-neutral-400 cursor-pointer hover:text-neutral-300  ml-10 ' >Components</a>
-       <a href='#' className='text-neutral-400 cursor-pointer hover:text-neutral-300  ' >Pricing</a>
-       <a href='#' className='text-neutral-400 cursor-pointer hover:text-neutral-300  ' >Newsletter</a>
+       <a href='#' className='text-neutral-500 cursor-pointer hover:text-neutral-700  ml-10 ' >Components</a>
+       <a href='#' className='text-neutral-500 cursor-pointer hover:text-neutral-700  ' >Pricing</a>
+       <a href='#' className='text-neutral-500 cursor-pointer hover:text-neutral-700  ' >Newsletter</a>
     </div>
   )
 }

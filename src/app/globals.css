@@ -4,8 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 body {
-  background: var(--foreground);
-  color: var(--background);
+  background: var(--background);
+  color: var(--foreground);
 }
 
 @theme inline {
