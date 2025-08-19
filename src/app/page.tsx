@@ -1,6 +1,9 @@
+"use client"
+
 import AiCard from '@/components/HomeCards/AiCard'
 import Special  from '@/components/HomeCards/Special'
 import Template from '@/components/HomeCards/Template'
+import ThemeChange from '@/components/HomeCards/ThemeChange'
 import Home from '@/components/LandingPage/Home'
 import Nav from '@/components/Navbar/Nav'
 import React from 'react'
@@ -13,6 +16,7 @@ const page = () => {
       <Template />
       <Special />
       <AiCard />
+      <ThemeChange />
     </div>
   )
 }
